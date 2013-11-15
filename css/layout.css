@@ -1,14 +1,14 @@
-/* 
+/*
     Document   : layout
     Created on : 3 sept. 2012, 17:56:23
     Author     : shaylash
     Description: layout styles
-    
+
     */
 
 /* Table of Content
 ==================================================
-        
+
         #Custom Reset
         #Typography
         #Boostrap customization
@@ -143,9 +143,9 @@ body {
 }
 
 .awards{
-    position:fixed; 
-    top:0; 
-    left:0; 
+    position:fixed;
+    top:0;
+    left:0;
     z-index:9000;
 }
 
@@ -459,7 +459,7 @@ width: 20px;
 .doubleBar{ padding-top:0; }
 
 .logoCenter .span12 {text-align:center;}
-.logoCenter .brand, .logoCenter #mainHeader #mainMenu, .logoBig #mainHeader #mainMenu{float:none;} 
+.logoCenter .brand, .logoCenter #mainHeader #mainMenu, .logoBig #mainHeader #mainMenu{float:none;}
 .logoCenter #mainHeader nav#mainMenu{display:inline-block; margin:0.5em 0 1em 0;}
 .logoCenter #mainMenu>ul>li>a{
    -moz-border-radius: 5px;
@@ -1467,9 +1467,9 @@ ul.entry-meta [class^="icon-"], [class*=" icon-"] {
 	.videoWrapper.videoFormat2 { padding-bottom: 54%;}
 	.videoWrapper.videoFormat3 { padding-bottom: 75%;}
 	p.videoCredit {display:block;}
-	
+
 /* #Shortcodes classes
-================================================== */ 
+================================================== */
 .relative{ position:relative; }
 /* INSIDE GRID */
 .full-width {
@@ -1972,7 +1972,7 @@ form .error {
 }
 .fullwidthbanner h3 {
     padding:0 0 0 0.5px;/*fixes chrome bug*/
-    
+
     font-size:1.5em;
 }
 .fullwidthbanner .captionBloc h3 {
@@ -2004,9 +2004,9 @@ form .error {
     margin-left:0;
     }*/
 
-    .tp-leftarrow, .tp-rightarrow{ background:none!important; font-family: 'custom-icons'; font-size:3em; color:#555} 
-    .tp-leftarrow.large:before{ content: '\e4a1'; } 
-    .tp-rightarrow.large:before{content: '\e4a2'; } 
+    .tp-leftarrow, .tp-rightarrow{ background:none!important; font-family: 'custom-icons'; font-size:3em; color:#555}
+    .tp-leftarrow.large:before{ content: '\e4a1'; }
+    .tp-rightarrow.large:before{content: '\e4a2'; }
 
 
 
@@ -2101,7 +2101,7 @@ form .error {
         margin-top:0;
         width:100%;
         text-transform:none;
-        
+
     }
     .flexslider .txt div {
         /*opacity:0;*/
@@ -2132,8 +2132,8 @@ form .error {
     .flex-direction-nav {
         display:none;
     }
-	
-	
+
+
 /* =============== SEQUENCE =================*/
 .sequence-prev, .sequence-next {
 	font-size:6em;
@@ -2152,7 +2152,7 @@ form .error {
 	 moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
-	
+
 }
 #sequence h3.subtitle {
 	padding:0;
@@ -2176,7 +2176,7 @@ form .error {
 }
 
 
-	
+
 /* =============== DROPSHADOWS =================*/
 
 
@@ -2380,9 +2380,9 @@ form .error {
 
     }
 
-  
+
     .home .bloc .imgWrapper{height:auto;  }
- 
+
 
 }
 /* NEXUS 7 */
@@ -2407,8 +2407,8 @@ form .error {
         body {
             padding-top:0;
 			padding-left: 0;
-			padding-right: 0;			
-			
+			padding-right: 0;
+
         }
 		 .container,  .navbar .container{
 		 margin-left:auto;
@@ -2423,24 +2423,24 @@ form .error {
         .navbar-fixed-top {
             margin-bottom:0;
         }
-		
+
 		#mainMenu .responsive-nav {
 			width:100%;
 			display:block;
 			margin-bottom:1em;
 		}
 		#mainHeader #mainMenu {float:none!important;}
-		
-		
+
+
 		.home .bloc .imgWrapper{height:auto;  }
-		
+
         .flexslider .slides .txt h2 {
             font-size:2em;
         }
 
 
         /* MAIN MENU */
-    
+
         .logoBig ul.socialNetwork {
             float:none;
             text-align: center;
@@ -2460,7 +2460,7 @@ form .error {
     #mainMenu ul {
         display:none;
     }
-  
+
 
     .awards{
         display:none;
@@ -2490,7 +2490,7 @@ form .error {
         margin-bottom:1.5em;
     }
     .mb15{margin-bottom:0!important;}
-   
+
     .headerPage #navTrail {
 	text-align:left;
     }
@@ -2602,14 +2602,14 @@ form .error {
         display:none;
     }
 
-  
+
 
     #mainMenu {
         border-top:none;
     }
-	
-	
-	
+
+
+
     .flexslider .slides .txt h2 {
         font-size:1.4em;
     }
@@ -2709,7 +2709,7 @@ form .error {
 @media (max-width: 320px) {
 
 
-    
+
     .home .bloc .imgWrapper{ height:auto; }
 	#mainHeader #mainMenu {float:left;}
     #sequence h2.title { font-size:1.5em;}
@@ -2731,7 +2731,7 @@ form .error {
 
     .imgRounded{ width: 180px; height: 180px; }
 	#mainHeader #mainMenu {float:left;}
- 
+
 
     .callToActionBoxed .btnWrapper{
         margin-right:12px;
