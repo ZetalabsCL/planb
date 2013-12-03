@@ -23,6 +23,13 @@
 
 
 
+/* #Parrafos con TAB
+=====================*/
+
+p.contab {
+    text-indent: 3em;
+}
+
 
 /* #Custom Reset (on top of normalize in bootstrap)
 ================================================== */
