@@ -6,7 +6,7 @@ $email = $_POST['email'];
 $message = $_POST['message'];
 
 // $to = 'planb_ltda@planbltda.cl';
-$to = 'reinaldo@zetalabs.cl'
+$to = 'reinaldo@zetalabs.cl';
 $subject = 'Nuevo contacto desde la web de PlanB Limitada';
 $message = 'DE: '.$name.' Email: '.$email.'MENSAJE: '.$message;
 $headers = 'From: reinaldo@zetalabs.cl' . "\r\n";
