@@ -5,11 +5,10 @@ $name = $_POST['name'];
 $email = $_POST['email'];
 $message = $_POST['message'];
 
-// $to = 'planb_ltda@planbltda.cl';
-$to = 'reinaldo@zetalabs.cl';
+$to = 'planb_ltda@planbltda.cl';
 $subject = 'Nuevo contacto desde la web de PlanB Limitada';
 $message = 'DE: '.$name."\n".' Email: '.$email. "\n".'MENSAJE: '.$message;
-$headers = 'From: reinaldo@zetalabs.cl' . "\r\n";
+$headers = 'planb_ltda@planbltda.cl' . "\r\n";
 
 if (filter_var($email, FILTER_VALIDATE_EMAIL)) { // this line checks that we have a valid email address
 mail($to, $subject, $message, $headers); //This method sends the mail.
