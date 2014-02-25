@@ -8,7 +8,7 @@ $message = $_POST['message'];
 // $to = 'planb_ltda@planbltda.cl';
 $to = 'reinaldo@zetalabs.cl';
 $subject = 'Nuevo contacto desde la web de PlanB Limitada';
-$message = 'DE: '.$name.' Email: '.$email.'MENSAJE: '.$message;
+$message = 'DE: '.$name.' Email: '.$email.' MENSAJE: '.$message;
 $headers = 'From: reinaldo@zetalabs.cl' . "\r\n";
 
 if (filter_var($email, FILTER_VALIDATE_EMAIL)) { // this line checks that we have a valid email address
