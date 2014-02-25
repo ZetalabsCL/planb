@@ -1,19 +1,20 @@
 <?php
 
-    $to = "mail@yourdomain.com";
-    $from = $_REQUEST['email'];
-    $name = $_REQUEST['name'];
-    $headers = "From: $from";
-    $subject = "You have a message sent from your site";
+   // Here we get all the information from the fields sent over by the form.
+$name = $_POST['name'];
+$email = $_POST['email'];
+$message = $_POST['message'];
 
-    $fields = array();
-    $fields{"name"} = "name";
-    $fields{"email"} = "email";
-    $fields{"phone"} = "phone";
-    $fields{"message"} = "message";
+// $to = 'planb_ltda@planbltda.cl';
+$to = 'reinaldo@zetalabs.cl'
+$subject = 'Nuevo contacto desde la web de PlanB Limitada';
+$message = 'DE: '.$name.' Email: '.$email.'MENSAJE: '.$message;
+$headers = 'From: reinaldo@zetalabs.cl' . "\r\n";
 
-    $body = "Here is what was sent:\n\n"; foreach($fields as $a => $b){   $body .= sprintf("%20s: %s\n",$b,$_REQUEST[$a]); }
-
-    $send = mail($to, $subject, $body, $headers);
-
+if (filter_var($email, FILTER_VALIDATE_EMAIL)) { // this line checks that we have a valid email address
+mail($to, $subject, $message, $headers); //This method sends the mail.
+echo "Tu Email fue enviado correctamente, pronto nos contactaremos contigo!"; // success message
+}else{
+echo "Email invalido. Proporciona una direccion correcta!";
+}
 ?>
